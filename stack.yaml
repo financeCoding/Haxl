@@ -1,0 +1,11 @@
+resolver: lts-3.20
+
+packages:
+- '.'
+- example/facebook/
+- example/sql/
+
+extra-deps: []
+
+flags: {}
+

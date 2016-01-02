@@ -5,8 +5,8 @@ executable example
   main-is:
     Main.hs
   build-depends:
+    base,
     hashable,
     haxl,
-    text,
     random,
-    base
+    text
