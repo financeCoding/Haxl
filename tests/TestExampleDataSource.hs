@@ -173,5 +173,5 @@ dumpCacheTest = TestCase $ do
   env <- testEnv
   runHaxl env loadCache
   str <- runHaxl env dumpCacheAsHaskell
-  loadcache <- readFile "sigma/haxl/core/tests/LoadCache.txt"
+  loadcache <- readFile "tests/LoadCache.txt"
   assertEqual "dumpCacheAsHaskell" str loadcache
